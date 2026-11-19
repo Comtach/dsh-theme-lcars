@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="300" viewBox="0 0 640 300" role="img" aria-label="The LCARS theme in the DeepSeek Harness web interface: a black console, a flat navigation column with two-line colour blocks whose labels end on the right edge, a three-chip session header, a framed composer and a bottom bar with a pale readout box">
+  <title>LCARS theme in the DeepSeek Harness web interface</title>
+  <rect width="640" height="300" fill="#000000"/>
+  <rect x="8" y="8" width="624" height="284" rx="18" fill="none" stroke="#3686ff" stroke-opacity="0.3"/>
+
+  <!-- navigation column: flat black, the colour lives in the blocks -->
+  <path d="M38 18H148a2 2 0 0 1 2 2v32H60a22 22 0 0 1-22-22z" fill="#3686ff"/>
+  <rect x="112" y="36" width="30" height="8" rx="4" fill="#8bdbfd"/>
+
+  <rect x="16" y="56" width="134" height="22" rx="2" fill="#46606d"/>
+  <rect x="96" y="64" width="46" height="6" rx="3" fill="#0a0a0a" fill-opacity="0.85"/>
+
+  <rect x="16" y="84" width="134" height="22" rx="2" fill="#3686ff"/>
+  <rect x="112" y="92" width="30" height="6" rx="3" fill="#0a0a0a" fill-opacity="0.85"/>
+  <rect x="16" y="112" width="134" height="22" rx="2" fill="#3686ff"/>
+  <rect x="88" y="120" width="54" height="6" rx="3" fill="#0a0a0a" fill-opacity="0.85"/>
+  <rect x="16" y="140" width="134" height="22" rx="2" fill="#3686ff"/>
+  <rect x="112" y="148" width="30" height="6" rx="3" fill="#0a0a0a" fill-opacity="0.85"/>
+
+  <!-- workspace caption, then its rows; the last one is the current session -->
+  <rect x="16" y="174" width="52" height="7" rx="3.5" fill="#8bdbfd"/>
+  <rect x="16" y="186" width="134" height="22" rx="2" fill="#3686ff"/>
+  <rect x="112" y="194" width="30" height="6" rx="3" fill="#0a0a0a" fill-opacity="0.85"/>
+  <path d="M16 214H138a12 12 0 0 1 0 24H16z" fill="#0947e8"/>
+  <rect x="96" y="222" width="34" height="6" rx="3" fill="#ffffff" fill-opacity="0.85"/>
+  <path d="M16 244H138a12 12 0 0 1 0 24H16z" fill="#8bdbfd"/>
+  <rect x="96" y="252" width="34" height="6" rx="3" fill="#0a0a0a" fill-opacity="0.85"/>
+
+  <!-- session header: three chips starting at the panel edge -->
+  <rect x="158" y="18" width="172" height="22" rx="2" fill="#3686ff"/>
+  <rect x="338" y="18" width="62" height="22" rx="2" fill="#46606d"/>
+  <rect x="408" y="18" width="62" height="22" rx="2" fill="#46606d"/>
+
+  <!-- conversation surface -->
+  <rect x="180" y="62" width="300" height="7" rx="3.5" fill="#2f4a75"/>
+  <rect x="180" y="78" width="248" height="7" rx="3.5" fill="#2f4a75"/>
+  <rect x="180" y="94" width="276" height="7" rx="3.5" fill="#2f4a75"/>
+  <rect x="430" y="112" width="150" height="16" rx="8" fill="#0d2b73"/>
+  <rect x="180" y="140" width="262" height="7" rx="3.5" fill="#2f4a75"/>
+  <rect x="180" y="156" width="198" height="7" rx="3.5" fill="#2f4a75"/>
+
+  <!-- composer card: 2px frame and a left accent cap -->
+  <rect x="180" y="190" width="412" height="42" rx="21" fill="#04070f" stroke="#3686ff" stroke-opacity="0.8" stroke-width="2"/>
+  <path d="M202 190h-2a21 21 0 0 0 0 42h2z" fill="#3686ff"/>
+  <rect x="214" y="208" width="126" height="7" rx="3.5" fill="#2f4a75"/>
+  <rect x="540" y="202" width="34" height="18" rx="9" fill="#d36010"/>
+
+  <!-- persistent bottom bar: frame band on the column edge and the pale readout box -->
+  <rect x="158" y="266" width="156" height="20" fill="#3686ff"/>
+  <rect x="322" y="266" width="150" height="20" rx="2" fill="#2f4a75"/>
+  <rect x="332" y="272" width="46" height="7" rx="3.5" fill="#a09858"/>
+  <rect x="384" y="272" width="1" height="7" fill="#1b3fa0"/>
+  <rect x="390" y="272" width="40" height="7" rx="3.5" fill="#a09858"/>
+  <rect x="436" y="272" width="1" height="7" fill="#1b3fa0"/>
+  <rect x="442" y="272" width="20" height="7" rx="3.5" fill="#8bdbfd"/>
+</svg>

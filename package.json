@@ -1,0 +1,54 @@
+{
+  "name": "dsh-theme-lcars",
+  "version": "1.64.58",
+  "type": "module",
+  "description": "LCARS (Okuda, Star Trek: TNG) web theme for DeepSeek Harness: a flat black navigation column of two-line colour blocks, the uppercase DEEPSEEK brand block, a three-chip session header, a framed composer and a persistent bottom bar with the stardate readout, in five colour series. · DSH LCARS 主题：纯黑导航列与两行高的彩色块、大写 DEEPSEEK 品牌块、三色块会话顶栏、带描边的输入框与底部常驻星历条，五套配色。",
+  "keywords": [
+    "deepseek-harness",
+    "dsh",
+    "dsh-plugin",
+    "plugin",
+    "theme",
+    "lcars",
+    "star-trek"
+  ],
+  "license": "MIT",
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "docs/DETAIL.md",
+    "docs/DETAIL.zh.md",
+    "docs/preview.svg",
+    "icon.svg",
+    "README.md"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": [
+        "@deepseek-ai/dsh-client-ui-theme",
+        "@deepseek-ai/dsh-client-ui-renderer",
+        "@deepseek-ai/dsh-client-locale",
+        "@deepseek-ai/dsh-client-ui-settings",
+        "@deepseek-ai/dsh-client-ui-settings-general",
+        "@deepseek-ai/dsh-client-ui-conversation",
+        "@deepseek-ai/dsh-client-ui-sidebar"
+      ]
+    }
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

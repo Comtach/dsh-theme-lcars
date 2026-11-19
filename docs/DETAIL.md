@@ -1,0 +1,1 @@
+![The LCARS theme in the DeepSeek Harness web interface: a black console, a flat navigation column of two-line colour blocks with right-aligned labels, a three-chip session header, a framed composer and a persistent bottom bar with a pale readout box](preview.svg)

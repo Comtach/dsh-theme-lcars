@@ -1,0 +1,39 @@
+MIT License
+
+Copyright (c) 2026 the dsh-theme-lcars authors
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of
+this software and associated documentation files (the "Software"), to deal in
+the Software without restriction, including without limitation the rights to
+use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of
+the Software, and to permit persons to whom the Software is furnished to do so,
+subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+---
+
+Third-party assets and marks
+
+- LCARS GTJ3: a fan-made LCARS display typeface supplied by the theme's author as
+  `LCARSGTJ3.zip`. Its own license is unknown; it is embedded as a base64 `woff2`
+  data URI inside `client.js` (and kept as `fonts/LCARSGTJ3.woff2` in the source
+  repository). This MIT license does not grant rights to that typeface: remove the
+  `@font-face` rule if redistribution is not permitted where you publish the theme.
+- Glow Sans (未来荧黑): SIL Open Font License. It is only referenced by family name
+  (`Glow Sans SC Condensed Bold`), not bundled, so it must be installed locally.
+- LCARS, Star Trek and related marks belong to CBS Studios / Paramount. This is an
+  unofficial fan theme and ships no Star Trek artwork: every shape in the theme
+  derives from generic geometric geometry, and the palette follows the
+  LCARS_CSS_Grid template, which its author releases for unrestricted use.
+- DeepSeek and the DeepSeek Harness name belong to DeepSeek. The theme only
+  restyles their user interface and ships none of their assets.

@@ -1,0 +1,9 @@
+# dsh-theme-lcars bundle patch
+#
+# Inserting the row is what mounts the plugin in a profile: the loader merges
+# this patch (the package's `dsh.bundle.patch` layer) as a normal `cordis.patch.yml`
+# insert, so no profile file needs editing by hand. The row id `theme-lcars` is
+# also the Config namespace the browser half reads through `ctx.configForms`.
+- insert:
+    - id: theme-lcars
+      name: 'dsh-theme-lcars'
